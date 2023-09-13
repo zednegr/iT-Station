@@ -14,6 +14,7 @@ export const NavbarWrapper = styled.div`
     justify-content: space-between;
     align-items: center;
     padding-top: 34px;
+    padding-bottom: 100px;
 `
 export const NavbarLogo = styled.div`
     cursor: pointer;
