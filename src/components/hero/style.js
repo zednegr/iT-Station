@@ -8,11 +8,6 @@ export const HeroSection = styled.div`
     padding-bottom: 150px;
 `
 
-export const Container = styled.div`
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0 20;
-`
 export const HeroWrapper = styled.div`
     display: flex;
     justify-content: space-between;

@@ -3,12 +3,6 @@ import { styled } from "styled-components"
 export const NavbarSection = styled.div``
 export const NavbarLogoImg = styled.img``
 
-export const Container = styled.div`
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0 20;
-`
-
 export const NavbarWrapper = styled.div`
     display: flex;
     justify-content: space-between;

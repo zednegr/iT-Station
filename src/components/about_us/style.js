@@ -1,11 +1,6 @@
 import { styled } from "styled-components";
 
 export const AboutSection = styled.div``
-export const Container = styled.div`
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0 20;
-`
 export const AboutWrapper = styled.div``
 
 export const AboutStart = styled.div`
