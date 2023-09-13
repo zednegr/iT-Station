@@ -1,10 +1,11 @@
 import React from 'react'
 
 // Import Style
-import { HeroLeft, HeroLeftButton, HeroLeftTitle, HeroLeftTitleH1, HeroRight, HeroSection, HeroWrapper } from './style'
+import { HeroLeft, HeroLeftButton, HeroLeftTitle, HeroLeftTitleH1, HeroRight, HeroSection, HeroWrapper, HeroRightImg } from './style'
 
 // Import Images
 import HeroBg from "../../assets/svg/hero-bg.svg"
+import HeroRightStudent from "../../assets/img/hero-right-img.png"
 
 export default function Hero() {
     return (
@@ -19,7 +20,7 @@ export default function Hero() {
                     </HeroLeft>
 
                     <HeroRight>
-
+                        <HeroRightImg src={HeroRightStudent}/>
                     </HeroRight>
                 </HeroWrapper>
         </HeroSection>

@@ -2,7 +2,6 @@ import { styled } from "styled-components";
 
 export const HeroLeft = styled.div``
 export const HeroLeftTitle = styled.div``
-export const HeroRight = styled.div``
 
 export const HeroSection = styled.div`
     padding-bottom: 150px;
@@ -42,3 +41,6 @@ export const HeroLeftButton = styled.button`
     line-height: 22px; /* 137.5% */
     letter-spacing: -0.16px;
 `
+
+export const HeroRight = styled.div``
+export const HeroRightImg = styled.img``
