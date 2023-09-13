@@ -13,7 +13,6 @@ export const NavbarWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
     padding-top: 34px;
 `
 export const NavbarLogo = styled.div`
