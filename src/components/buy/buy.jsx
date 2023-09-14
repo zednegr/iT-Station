@@ -1,11 +1,11 @@
 import React from 'react'
 
 // Import Style
-import { BuyBox, BuyBoxLeft, BuyBoxLeftBtn, BuyBoxLeftH2, BuyBoxLeftInfoWrapper, BuyBoxLeftP, BuyBoxLeftStar, BuyBoxRight, BuyBoxRightImg, BuySection, BuyWrapper } from './buy'
+import { BuyBox, BuyBoxLeft, BuyBoxLeftBtn, BuyBoxLeftH2, BuyBoxLeftInfoWrapper, BuyBoxLeftP, BuyBoxLeftStar, BuyBoxRight, BuyBoxRightImg, BuySection, BuyWrapper } from './style'
 
 // Import Images
 import BuyOpa from "../../assets/img/buy-opa.png"
-import BuyStar from "../../assets/img/buy-star.png"
+import BuyStar from "../../assets/svg/buy-star.svg"
 
 export default function buy() {
     return (

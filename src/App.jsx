@@ -5,6 +5,7 @@ import Course from './components/course/course';
 import FreeCourse from './components/free_course/free_course';
 import Hero from './components/hero/hero';
 import Navbar from './components/navbar/navbar';
+import Buy from "./components/buy/buy";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <About_us />
         <Course />
         <FreeCourse />
+        <Buy />
       </Container>
     </>
   )
