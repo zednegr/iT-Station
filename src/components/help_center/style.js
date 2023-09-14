@@ -1,14 +1,13 @@
 import { styled } from "styled-components";
 
 export const HelpSection = styled.div`
-    padding-top: 128px;
-    background: #E3E1E8;
+  padding-top: 128px;
 `;
 
 export const HelpWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const HelpBox = styled.div`
@@ -20,6 +19,12 @@ export const HelpBox = styled.div`
   border-radius: 24px;
   background: #263039;
   padding: 80px;
+
+  @media only screen and (max-width: 768px) {
+    width: 700px;
+    height: 252px;
+    padding: 40px;
+  }
 `;
 
 export const HelpBoxLeft = styled.div``;
@@ -34,6 +39,13 @@ export const HelpBoxH2 = styled.h2`
   line-height: 60px; /* 125% */
   letter-spacing: -1.44px;
   padding-bottom: 20px;
+
+  @media only screen and (max-width: 768px) {
+    width: 250px;
+    font-size: 24px;
+    line-height: 30px; /* 125% */
+    letter-spacing: -1px;
+  }
 `;
 
 export const HelpBoxP = styled.p`
@@ -45,6 +57,12 @@ export const HelpBoxP = styled.p`
   font-weight: 400;
   line-height: 28px; /* 155.556% */
   letter-spacing: -0.18px;
+
+  @media only screen and (max-width: 768px) {
+    width: 250px;
+    line-height: 15px; /* 125% */
+    font-size: 10px;
+  }
 `;
 
 export const HelpBoxRight = styled.div``;
@@ -57,6 +75,16 @@ export const HelpBoxRightBox = styled.div`
   background: rgba(23, 34, 43, 0.7);
   box-shadow: -42px 25px 69px -12px rgba(0, 0, 0, 0.08);
   padding: 30px;
+
+  @media only screen and (max-width: 768px) {
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const HelpBoxRightBoxInputWrapper = styled.div`
@@ -79,6 +107,12 @@ export const HelpBoxRightBoxInput = styled.input`
   font-weight: 400;
   line-height: 28px; /* 155.556% */
   letter-spacing: -0.18px;
+
+  @media only screen and (max-width: 768px) {
+    width: 200px;
+    padding: 5px;
+    font-size: 12px;
+  }
 `;
 
 export const HelpBoxRightBoxInputBtn = styled.button`
@@ -101,5 +135,10 @@ export const HelpBoxRightBoxInputBtn = styled.button`
 
   &:hover {
     opacity: 0.8;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 156px;
+    padding: 5px 0;
   }
 `;

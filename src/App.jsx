@@ -19,7 +19,7 @@ function App() {
         <Course />
         <FreeCourse />
         <Buy />
-        {/* <HelpCenter /> */}
+        <HelpCenter />
       </Container>
     </>
   )
