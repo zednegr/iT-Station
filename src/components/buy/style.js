@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const BuySection = styled.div``;
+export const BuySection = styled.div`
+  padding-bottom: 109px;
+`;
 
 export const BuyWrapper = styled.div`
   display: flex;
@@ -34,21 +36,24 @@ export const BuyBoxLeftH2 = styled.h2`
 `;
 
 export const BuyBoxLeftInfoWrapper = styled.div`
+  width: 750px;
   display: flex;
   align-items: center;
   gap: 5px;
 `;
 
-export const BuyBoxLeftStar = styled.img``;
+export const BuyBoxLeftStar = styled.img`
+  width: 24px;
+  height: 24px;
+`;
 
 export const BuyBoxLeftP = styled.p`
-  width: 516px;
   color: #fff;
   font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 16.8px */
+  line-height: 250%; /* 16.8px */
   letter-spacing: 0.28px;
 `;
 
@@ -64,11 +69,17 @@ export const BuyBoxLeftBtn = styled.button`
   line-height: normal;
   letter-spacing: 0.32px;
   text-transform: uppercase;
+  margin-top: 33px;
 `;
 
-export const BuyBoxRight = styled.div``;
+export const BuyBoxRight = styled.div`
+  position: relative;
+`;
 
 export const BuyBoxRightImg = styled.img`
+  position: absolute;
+  right: -300px;
+  bottom: -200px;
   width: 919px;
   height: 540px;
 `;

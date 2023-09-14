@@ -19,6 +19,18 @@ export default function buy() {
                             <BuyBoxLeftStar src={BuyStar} alt='Icon'/>
                             <BuyBoxLeftP>Teachers don't get lost in the grid view and have a dedicated Podium space.</BuyBoxLeftP>
                         </BuyBoxLeftInfoWrapper>
+                        <BuyBoxLeftInfoWrapper>
+                            <BuyBoxLeftStar src={BuyStar} alt='Icon'/>
+                            <BuyBoxLeftP>Teachers don't get lost in the grid view and have a dedicated Podium space.</BuyBoxLeftP>
+                        </BuyBoxLeftInfoWrapper>
+                        <BuyBoxLeftInfoWrapper>
+                            <BuyBoxLeftStar src={BuyStar} alt='Icon'/>
+                            <BuyBoxLeftP>Teachers don't get lost in the grid view and have a dedicated Podium space.</BuyBoxLeftP>
+                        </BuyBoxLeftInfoWrapper>
+                        <BuyBoxLeftInfoWrapper>
+                            <BuyBoxLeftStar src={BuyStar} alt='Icon'/>
+                            <BuyBoxLeftP>Teachers don't get lost in the grid view and have a dedicated Podium space.</BuyBoxLeftP>
+                        </BuyBoxLeftInfoWrapper>
 
                         <BuyBoxLeftBtn>buy now</BuyBoxLeftBtn>
                     </BuyBoxLeft>
