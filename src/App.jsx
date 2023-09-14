@@ -18,7 +18,7 @@ function App() {
         <About_us />
         <Course />
         <FreeCourse />
-        {/* <Buy /> */}
+        <Buy />
         {/* <HelpCenter /> */}
       </Container>
     </>
