@@ -16,6 +16,10 @@ export const CourseStartH3 = styled.h3`
   font-weight: 800;
   line-height: 56px; /* 175% */
   letter-spacing: -0.64px;
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const CourseWrapper = styled.div`

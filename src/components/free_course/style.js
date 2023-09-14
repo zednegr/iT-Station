@@ -22,6 +22,10 @@ export const FreeCourseStartH3 = styled.h3`
   font-weight: 700;
   line-height: 62.4px; /* 130% */
   letter-spacing: -2.88px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 38px;
+  }
 `;
 
 export const FreeCourseBtnWrapper = styled.div`
@@ -49,6 +53,11 @@ export const FreeCourseBtns = styled.button`
   &:hover {
     background: #263039;
     color: #fff;
+  }
+
+  @media only screen and (min-width: 768px) {
+    padding: 10px 2px;
+    white-space: nowrap;
   }
 `;
 
