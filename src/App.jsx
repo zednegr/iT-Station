@@ -6,6 +6,7 @@ import FreeCourse from './components/free_course/free_course';
 import Hero from './components/hero/hero';
 import Navbar from './components/navbar/navbar';
 import Buy from "./components/buy/buy";
+import HelpCenter from './components/help_center/help_center';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Course />
         <FreeCourse />
         <Buy />
+        <HelpCenter />
       </Container>
     </>
   )

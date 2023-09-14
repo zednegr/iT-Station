@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const BuySection = styled.div`
+  padding-top: 221px;
   padding-bottom: 109px;
 `;
 
@@ -70,6 +71,10 @@ export const BuyBoxLeftBtn = styled.button`
   letter-spacing: 0.32px;
   text-transform: uppercase;
   margin-top: 33px;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `;
 
 export const BuyBoxRight = styled.div`

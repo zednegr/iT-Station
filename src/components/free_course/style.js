@@ -11,15 +11,6 @@ export const FreeCourseStart = styled.div`
   justify-content: center;
   align-items: center;
   padding-bottom: 45px;
-  
-  &::before {
-    position: absolute;
-    content: "";
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    background-image: url("../../assets/svg/free-course-line.svg");
-  }
 `;
 
 export const FreeCourseStartH3 = styled.h3`
@@ -166,4 +157,3 @@ export const FreeCourseCardBottomButton = styled.button`
     color: #fff;
   }
 `;
- 

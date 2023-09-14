@@ -16,19 +16,19 @@ export default function buy() {
                         <BuyBoxLeftH2>It Station blan birga Dasturlashni organing</BuyBoxLeftH2>
 
                         <BuyBoxLeftInfoWrapper>
-                            <BuyBoxLeftStar src={BuyStar} alt='Icon'/>
+                            <BuyBoxLeftStar src={BuyStar} alt='Icon' />
                             <BuyBoxLeftP>Teachers don't get lost in the grid view and have a dedicated Podium space.</BuyBoxLeftP>
                         </BuyBoxLeftInfoWrapper>
                         <BuyBoxLeftInfoWrapper>
-                            <BuyBoxLeftStar src={BuyStar} alt='Icon'/>
+                            <BuyBoxLeftStar src={BuyStar} alt='Icon' />
                             <BuyBoxLeftP>Teachers don't get lost in the grid view and have a dedicated Podium space.</BuyBoxLeftP>
                         </BuyBoxLeftInfoWrapper>
                         <BuyBoxLeftInfoWrapper>
-                            <BuyBoxLeftStar src={BuyStar} alt='Icon'/>
+                            <BuyBoxLeftStar src={BuyStar} alt='Icon' />
                             <BuyBoxLeftP>Teachers don't get lost in the grid view and have a dedicated Podium space.</BuyBoxLeftP>
                         </BuyBoxLeftInfoWrapper>
                         <BuyBoxLeftInfoWrapper>
-                            <BuyBoxLeftStar src={BuyStar} alt='Icon'/>
+                            <BuyBoxLeftStar src={BuyStar} alt='Icon' />
                             <BuyBoxLeftP>Teachers don't get lost in the grid view and have a dedicated Podium space.</BuyBoxLeftP>
                         </BuyBoxLeftInfoWrapper>
 
