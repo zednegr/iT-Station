@@ -9,17 +9,17 @@ import Buy from "./components/buy/buy";
 import HelpCenter from './components/help_center/help_center';
 
 function App() {
-
+  
   return (
     <>
       <Container>
         <Navbar />
         <Hero />
-        <About_us />
-        <Course />
-        <FreeCourse />
-        <Buy />
-        <HelpCenter />
+        {/* <About_us /> */}
+        {/* <Course /> */}
+        {/* <FreeCourse /> */}
+        {/* <Buy /> */}
+        {/* <HelpCenter /> */}
       </Container>
     </>
   )
