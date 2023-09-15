@@ -14,7 +14,7 @@ export const HeroWrapper = styled.div`
   align-items: center;
 
   @media only screen and (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 `;
 

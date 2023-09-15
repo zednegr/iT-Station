@@ -9,6 +9,11 @@ export const NavbarLogoImg = styled.img`
     width: 80px;
     height: 40px;
   }
+
+  @media only screen and (max-width: 425px) {
+    width: 100px;
+    height: 50px;
+  }
 `;
 
 export const NavbarWrapper = styled.div`
@@ -27,6 +32,10 @@ export const NavbarList = styled.ul`
   display: flex;
   align-items: center;
   gap: 25px;
+
+  @media only screen and (max-width: 425px) {
+    display: none;
+  }
 `;
 
 export const NavbarItem = styled.li`
@@ -64,5 +73,40 @@ export const NavbarButton = styled.button`
   @media only screen and (max-width: 768px) {
     width: 100.059px;
     padding: 10px 10px;
+    border-radius: 10px;
   }
 `;
+
+export const NavbarHamburgerBtn = styled.button`
+  padding: 10px 10px;
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  display: none;
+
+  @media only screen and (max-width: 425px) {
+    display: flex;
+  }
+`;
+
+export const NavbarHamburgerSpanWrapper = styled.span`
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 5px;
+`
+
+export const NavbarHamburgerSpan = styled.span`
+  width: 25px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 10px;
+`
+
+export const NavbarHamburgerSidebar = styled.div`
+  width: 500px;
+  height: 100%;
+  background-color: red;
+`
