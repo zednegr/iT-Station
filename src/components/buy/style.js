@@ -98,6 +98,7 @@ export const BuyBoxLeftBtn = styled.button`
   letter-spacing: 0.32px;
   text-transform: uppercase;
   margin-top: 33px;
+  border: none;
 
   &:hover {
     opacity: 0.8;
